@@ -14,7 +14,7 @@ $ python  generate_password.py [-h] [-l {weak,medium,strong}] [-len LENGTH] [-up
 ```
 
 Arguments:
-```console
+```
 optional arguments:
   -h, --help            show this help message and exit
   -l {weak,medium,strong}, --level {weak,medium,strong}
