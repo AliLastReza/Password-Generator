@@ -9,12 +9,12 @@ Generates a random password as you want.
 
 Usage guide:
 
-```shell script
+```console
 $ python  generate_password.py [-h] [-l {weak,medium,strong}] [-len LENGTH] [-up] [-lw] [-d] [-s]
 ```
 
 Arguments:
-```shell script
+```console
 optional arguments:
   -h, --help            show this help message and exit
   -l {weak,medium,strong}, --level {weak,medium,strong}
@@ -27,7 +27,7 @@ optional arguments:
 ```
 
 Examples:
-```shell script
+```console
 $ python generate_password.py
 lrvql086
 
