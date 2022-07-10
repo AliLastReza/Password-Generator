@@ -4,8 +4,7 @@ from settings import *
 
 
 def create_argparser():
-    parser = argparse.ArgumentParser(prog=PROGRAM_NAME,
-                                     epilog=EPILOG_MSG,
+    parser = argparse.ArgumentParser(epilog=EPILOG_MSG,
                                      fromfile_prefix_chars='@',
                                      description=DESCRIPTION,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)

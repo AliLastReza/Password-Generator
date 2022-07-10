@@ -10,7 +10,7 @@ Generates a random password as you want.
 Usage guide:
 
 ```shell script
-$ python password-generator [-h] [-l {weak,medium,strong}] [-len LENGTH] [-up] [-lw] [-d] [-s]
+$ python  generate_password.py [-h] [-l {weak,medium,strong}] [-len LENGTH] [-up] [-lw] [-d] [-s]
 ```
 
 Arguments:
